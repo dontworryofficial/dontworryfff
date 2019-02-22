@@ -1,0 +1,6 @@
+framework module Pods_dontworrybehappyTests {
+  umbrella header "Pods-dontworrybehappyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0125F648C6890620C62B84 /* Pods_dontworrybehappyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695C5A1D178EC8441BB99F27 /* Pods_dontworrybehappyUITests.framework */; };
+		44E83CC74E921CE2A881081A /* Pods_dontworrybehappyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C4ABB64753260B79462F64 /* Pods_dontworrybehappyTests.framework */; };
+		5EA77BC612C9F08C14756722 /* Pods_dontworrybehappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88FCB0321964A0B882FABC9 /* Pods_dontworrybehappy.framework */; };
+		D80835C62216624500011402 /* MonthChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80835C52216624500011402 /* MonthChartViewController.swift */; };
+		D80835C9221A854900011402 /* PlusBtnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80835C8221A854800011402 /* PlusBtnViewController.swift */; };
+		D80835CC221A910800011402 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D80835CB221A910800011402 /* libsqlite3.tbd */; };
+		D80835EE221BCEDF00011402 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80835ED221BCEDF00011402 /* MenuViewController.swift */; };
+		D80835F0221BD5FA00011402 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80835EF221BD5FA00011402 /* SlideInTransition.swift */; };
+		D80835F2221D050800011402 /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80835F1221D050800011402 /* DaysViewController.swift */; };
 		D82C71AB221140B400548F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C71AA221140B400548F10 /* AppDelegate.swift */; };
 		D82C71AD221140B400548F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C71AC221140B400548F10 /* ViewController.swift */; };
 		D82C71B0221140B400548F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82C71AE221140B400548F10 /* Main.storyboard */; };
@@ -34,6 +43,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04302AFFD6BE135115037183 /* Pods-dontworrybehappyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dontworrybehappyTests.debug.xcconfig"; path = "Target Support Files/Pods-dontworrybehappyTests/Pods-dontworrybehappyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A4769C21383B17166B7DD30 /* Pods-dontworrybehappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dontworrybehappy.debug.xcconfig"; path = "Target Support Files/Pods-dontworrybehappy/Pods-dontworrybehappy.debug.xcconfig"; sourceTree = "<group>"; };
+		5CD7FAD44E3E136FFBF748F7 /* Pods-dontworrybehappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dontworrybehappy.release.xcconfig"; path = "Target Support Files/Pods-dontworrybehappy/Pods-dontworrybehappy.release.xcconfig"; sourceTree = "<group>"; };
+		695C5A1D178EC8441BB99F27 /* Pods_dontworrybehappyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dontworrybehappyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C4ABB64753260B79462F64 /* Pods_dontworrybehappyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dontworrybehappyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA2AF415A33FBC1AD197BB2 /* Pods-dontworrybehappyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dontworrybehappyTests.release.xcconfig"; path = "Target Support Files/Pods-dontworrybehappyTests/Pods-dontworrybehappyTests.release.xcconfig"; sourceTree = "<group>"; };
+		D12D8DF25056D464A8F7418A /* Pods-dontworrybehappyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dontworrybehappyUITests.release.xcconfig"; path = "Target Support Files/Pods-dontworrybehappyUITests/Pods-dontworrybehappyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D80835C52216624500011402 /* MonthChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthChartViewController.swift; sourceTree = "<group>"; };
+		D80835C8221A854800011402 /* PlusBtnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusBtnViewController.swift; sourceTree = "<group>"; };
+		D80835CB221A910800011402 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D80835CE221A9EDF00011402 /* dontworrybehappy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dontworrybehappy-Bridging-Header.h"; sourceTree = "<group>"; };
+		D80835DF221A9EEF00011402 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		D80835E0221A9EEF00011402 /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		D80835E1221A9EEF00011402 /* FMDatabasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		D80835E2221A9EEF00011402 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		D80835E3221A9EEF00011402 /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		D80835E4221A9EF000011402 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D80835E5221A9EF000011402 /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		D80835E6221A9EF000011402 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D80835E7221A9EF000011402 /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		D80835E8221A9EF000011402 /* FMResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		D80835E9221A9EF000011402 /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		D80835ED221BCEDF00011402 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		D80835EF221BD5FA00011402 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		D80835F1221D050800011402 /* DaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
 		D82C71A7221140B400548F10 /* dontworrybehappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dontworrybehappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82C71AA221140B400548F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D82C71AC221140B400548F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +81,8 @@
 		D82C71C6221140B600548F10 /* dontworrybehappyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dontworrybehappyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82C71CA221140B600548F10 /* dontworrybehappyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dontworrybehappyUITests.swift; sourceTree = "<group>"; };
 		D82C71CC221140B600548F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88FCB0321964A0B882FABC9 /* Pods_dontworrybehappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dontworrybehappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F8DB1A3CC4EA2D0EC9EC0C /* Pods-dontworrybehappyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dontworrybehappyUITests.debug.xcconfig"; path = "Target Support Files/Pods-dontworrybehappyUITests/Pods-dontworrybehappyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80835CC221A910800011402 /* libsqlite3.tbd in Frameworks */,
+				5EA77BC612C9F08C14756722 /* Pods_dontworrybehappy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E83CC74E921CE2A881081A /* Pods_dontworrybehappyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +107,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0125F648C6890620C62B84 /* Pods_dontworrybehappyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040BE63AA3CACA40782C31D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A4769C21383B17166B7DD30 /* Pods-dontworrybehappy.debug.xcconfig */,
+				5CD7FAD44E3E136FFBF748F7 /* Pods-dontworrybehappy.release.xcconfig */,
+				04302AFFD6BE135115037183 /* Pods-dontworrybehappyTests.debug.xcconfig */,
+				BBA2AF415A33FBC1AD197BB2 /* Pods-dontworrybehappyTests.release.xcconfig */,
+				E9F8DB1A3CC4EA2D0EC9EC0C /* Pods-dontworrybehappyUITests.debug.xcconfig */,
+				D12D8DF25056D464A8F7418A /* Pods-dontworrybehappyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0E1B8FDD1AB105A9F0990E83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D80835CB221A910800011402 /* libsqlite3.tbd */,
+				E88FCB0321964A0B882FABC9 /* Pods_dontworrybehappy.framework */,
+				95C4ABB64753260B79462F64 /* Pods_dontworrybehappyTests.framework */,
+				695C5A1D178EC8441BB99F27 /* Pods_dontworrybehappyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D80835C222165F5B00011402 /* ChartController */ = {
+			isa = PBXGroup;
+			children = (
+				D80835C52216624500011402 /* MonthChartViewController.swift */,
+			);
+			path = ChartController;
+			sourceTree = "<group>";
+		};
+		D80835C7221A852400011402 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				D80835C8221A854800011402 /* PlusBtnViewController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		D80835CD221A9D8200011402 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				D80835E3221A9EEF00011402 /* FMDatabase.h */,
+				D80835E9221A9EF000011402 /* FMDatabase.m */,
+				D80835E6221A9EF000011402 /* FMDatabaseAdditions.h */,
+				D80835DF221A9EEF00011402 /* FMDatabaseAdditions.m */,
+				D80835E1221A9EEF00011402 /* FMDatabasePool.h */,
+				D80835E7221A9EF000011402 /* FMDatabasePool.m */,
+				D80835E2221A9EEF00011402 /* FMDatabaseQueue.h */,
+				D80835E4221A9EF000011402 /* FMDatabaseQueue.m */,
+				D80835E5221A9EF000011402 /* FMDB.h */,
+				D80835E8221A9EF000011402 /* FMResultSet.h */,
+				D80835E0221A9EEF00011402 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		D80835EA221BC73400011402 /* MenuController */ = {
+			isa = PBXGroup;
+			children = (
+				D80835ED221BCEDF00011402 /* MenuViewController.swift */,
+				D80835EF221BD5FA00011402 /* SlideInTransition.swift */,
+				D80835F1221D050800011402 /* DaysViewController.swift */,
+			);
+			path = MenuController;
+			sourceTree = "<group>";
+		};
 		D82C719E221140B300548F10 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +189,8 @@
 				D82C71BE221140B600548F10 /* dontworrybehappyTests */,
 				D82C71C9221140B600548F10 /* dontworrybehappyUITests */,
 				D82C71A8221140B400548F10 /* Products */,
+				040BE63AA3CACA40782C31D0 /* Pods */,
+				0E1B8FDD1AB105A9F0990E83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +207,11 @@
 		D82C71A9221140B400548F10 /* dontworrybehappy */ = {
 			isa = PBXGroup;
 			children = (
+				D80835EA221BC73400011402 /* MenuController */,
+				D80835CE221A9EDF00011402 /* dontworrybehappy-Bridging-Header.h */,
+				D80835CD221A9D8200011402 /* FMDB */,
+				D80835C7221A852400011402 /* NavigationController */,
+				D80835C222165F5B00011402 /* ChartController */,
 				D82C71AA221140B400548F10 /* AppDelegate.swift */,
 				D82C71AC221140B400548F10 /* ViewController.swift */,
 				D82C71AE221140B400548F10 /* Main.storyboard */,
@@ -132,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D82C71CF221140B600548F10 /* Build configuration list for PBXNativeTarget "dontworrybehappy" */;
 			buildPhases = (
+				D2BF7206479A9CCE534AF761 /* [CP] Check Pods Manifest.lock */,
 				D82C71A3221140B300548F10 /* Sources */,
 				D82C71A4221140B300548F10 /* Frameworks */,
 				D82C71A5221140B300548F10 /* Resources */,
+				DDE4FEE73654D6F42A4C45F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D82C71D2221140B600548F10 /* Build configuration list for PBXNativeTarget "dontworrybehappyTests" */;
 			buildPhases = (
+				1226D46C8D6DF9563789E713 /* [CP] Check Pods Manifest.lock */,
 				D82C71B7221140B600548F10 /* Sources */,
 				D82C71B8221140B600548F10 /* Frameworks */,
 				D82C71B9221140B600548F10 /* Resources */,
@@ -167,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D82C71D5221140B600548F10 /* Build configuration list for PBXNativeTarget "dontworrybehappyUITests" */;
 			buildPhases = (
+				4C43017C28AEA033D01D3399 /* [CP] Check Pods Manifest.lock */,
 				D82C71C2221140B600548F10 /* Sources */,
 				D82C71C3221140B600548F10 /* Frameworks */,
 				D82C71C4221140B600548F10 /* Resources */,
@@ -193,6 +312,7 @@
 				TargetAttributes = {
 					D82C71A6221140B300548F10 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					D82C71BA221140B600548F10 = {
 						CreatedOnToolsVersion = 10.1;
@@ -251,13 +371,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1226D46C8D6DF9563789E713 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dontworrybehappyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C43017C28AEA033D01D3399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dontworrybehappyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BF7206479A9CCE534AF761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dontworrybehappy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE4FEE73654D6F42A4C45F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dontworrybehappy/Pods-dontworrybehappy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dontworrybehappy/Pods-dontworrybehappy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D82C71A3221140B300548F10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D82C71AD221140B400548F10 /* ViewController.swift in Sources */,
+				D80835EE221BCEDF00011402 /* MenuViewController.swift in Sources */,
+				D80835F2221D050800011402 /* DaysViewController.swift in Sources */,
+				D80835C9221A854900011402 /* PlusBtnViewController.swift in Sources */,
+				D80835F0221BD5FA00011402 /* SlideInTransition.swift in Sources */,
 				D82C71AB221140B400548F10 /* AppDelegate.swift in Sources */,
+				D80835C62216624500011402 /* MonthChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +646,10 @@
 		};
 		D82C71D0221140B600548F10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4769C21383B17166B7DD30 /* Pods-dontworrybehappy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = dontworrybehappy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +658,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.dontworrybehappy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dontworrybehappy/dontworrybehappy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,8 +667,10 @@
 		};
 		D82C71D1221140B600548F10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD7FAD44E3E136FFBF748F7 /* Pods-dontworrybehappy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = dontworrybehappy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +679,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.dontworrybehappy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dontworrybehappy/dontworrybehappy-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +687,7 @@
 		};
 		D82C71D3221140B600548F10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04302AFFD6BE135115037183 /* Pods-dontworrybehappyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +708,7 @@
 		};
 		D82C71D4221140B600548F10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA2AF415A33FBC1AD197BB2 /* Pods-dontworrybehappyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +729,7 @@
 		};
 		D82C71D6221140B600548F10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F8DB1A3CC4EA2D0EC9EC0C /* Pods-dontworrybehappyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +749,7 @@
 		};
 		D82C71D7221140B600548F10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12D8DF25056D464A8F7418A /* Pods-dontworrybehappyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
